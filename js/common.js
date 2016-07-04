@@ -46,7 +46,7 @@ $(function () {
                         Storage.setItem('isAgreement', true);
                     }
                     //同意用户协议
-                    
+                    network.agree();
                     $.router.loadPage('#index');
                 });
                 // 获取用户协议
